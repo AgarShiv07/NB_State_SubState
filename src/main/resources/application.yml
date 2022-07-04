@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: postgres
+    password: 12345678
+    url: jdbc:postgresql://localhost:5432/desk
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+server:
+  port: 8080
+#logging:
+#  file:
+#    path: logs
